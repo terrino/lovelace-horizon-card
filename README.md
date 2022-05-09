@@ -25,7 +25,7 @@ Please ensure you have the [Sun integration](https://www.home-assistant.io/integ
 
 1. Make sure the [HACS](https://github.com/custom-components/hacs) component is installed and working.
 1. Add the project repository `https://github.com/rejuvenate/lovelace-horizon-card` as a custom repository to HACS, see: https://hacs.xyz/docs/faq/custom_repositories
-   
+
    <picture>
      <source media="(prefers-color-scheme: light)" srcset="https://github.com/Mqxx/GitHub-Markdown/blob/main/blockquotes/badge/light-theme/info.svg">
      <img alt="Info" src="https://github.com/Mqxx/GitHub-Markdown/blob/main/blockquotes/badge/dark-theme/info.svg">
@@ -48,7 +48,7 @@ Installation via HACS is recommended, but a manual setup is supported.
    1. **UI:** Go to [![My Home Assistant](https://my.home-assistant.io/badges/lovelace_resources.svg)](https://my.home-assistant.io/redirect/lovelace_resources) and click **Add resource** *(or navigate to Settings -> Dashboards -> Resources -> Add Resource)* and enter:
 
       **URL**: `/local/lovelace-horizon-card.js`
-      
+
       **Type**: JavaScript Module
    1. **YAML:** Add the configuration to your `ui-lovelace.yaml`:
 
@@ -57,7 +57,7 @@ Installation via HACS is recommended, but a manual setup is supported.
         - url: /local/lovelace-horizon-card.js
           type: module
       ```
-  
+
 1. Restart Home Assistant.
 
 </details>
@@ -126,6 +126,7 @@ Supported options for the `language` setting:
 - `nn` Norwegian (Nynorsk)
 - `pl` Polish
 - `pt-BR` Portuguese (Brazil)
+- `ro` Romanian
 - `ru` Russian
 - `sk` Slovak
 - `sl` Slovenian
@@ -135,4 +136,4 @@ Supported options for the `language` setting:
 
 ## Known Issues
 
-- Home Assistant reports the time of the next occurring Sun event. For example, if you look at the card during the day, the time for sunrise will reflect tomorrow's sunrise and not the one that occurred on the same day. 
+- Home Assistant reports the time of the next occurring Sun event. For example, if you look at the card during the day, the time for sunrise will reflect tomorrow's sunrise and not the one that occurred on the same day.

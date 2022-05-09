@@ -1,0 +1,12 @@
+{
+  "azimuth": "Azimut",
+  "dawn": "Zori",
+  "dusk": "Amurg",
+  "elevation": "Elevație",
+  "noon": "Zenit",
+  "sunrise": "Răsărit",
+  "sunset": "Apus",
+  "errors": {
+    "SunIntegrationNotFound": "Integrare solară indisponibilă"
+  }
+}
