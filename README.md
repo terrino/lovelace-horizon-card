@@ -66,7 +66,9 @@ Learn more about HACS [here](https://hacs.xyz/).
 | use12hourClock | `boolean`            | Use 12/24 hour clock                   | Uses locale of configured language to decide        |
 | title          | `string`             | Card title                             | Doesn't display a title by default                  |
 
-### Fields
+### Visibility Fields
+
+Supported settings inside the `fields` setting:
 
 | Name           | Accepted values | Description    | Default |
 |----------------|-----------------|----------------|---------|
@@ -78,8 +80,11 @@ Learn more about HACS [here](https://hacs.xyz/).
 | azimuth        | `boolean`       | Show azimuth   | `false` |
 | elevation      | `boolean`       | Show elevation | `false` |
 
-### Language
+### Languages
 
+Supported options for the `language` setting:
+
+- `bg` Bulgarian
 - `ca` Catalan
 - `cs` Czech
 - `da` Danish
