@@ -1,9 +1,9 @@
 import { HomeAssistant, LovelaceCardEditor } from 'custom-card-helpers'
 import { CSSResult, LitElement, TemplateResult } from 'lit'
-import { customElement, property } from 'lit/decorators.js'
+import { customElement, property } from 'lit-element'
 
 import cardStyles from '../../cardStyles'
-import { ESunCardI18NKeys,ISunCardConfig } from '../../types'
+import { ESunCardI18NKeys, ISunCardConfig } from '../../types'
 import { SunCardEditorContent, TSunCardEditorContentEvents } from './SunCardEditorContent'
 
 @customElement('sun-card-editor')

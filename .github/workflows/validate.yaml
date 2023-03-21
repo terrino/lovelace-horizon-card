@@ -1,7 +1,6 @@
 name: Validate
 
 on:
-  workflow_dispatch:
   push:
     branches:
       - main
@@ -12,9 +11,10 @@ on:
       - develop
   schedule:
     - cron: "0 0 * * *"
+  workflow_dispatch:
 
 jobs:
-  validate:
+  validate-hacs:
     runs-on: "ubuntu-latest"
     steps:
       - uses: "actions/checkout@v2"

@@ -25,7 +25,7 @@ class SVGPathElement {
   }
 }
 
-Object.defineProperty(window, 'SVGPathElement' , { value: SVGPathElement })
+Object.defineProperty(window, 'SVGPathElement', { value: SVGPathElement })
 
 describe('SunCard', () => {
   let sunCard: SunCard
@@ -393,8 +393,20 @@ describe('SunCard', () => {
 
   describe('readTime', () => {
     it('sets a specific day, month and year to a provided string date', () => {
-      const result = sunCard['readTime']('0', 2021, 5, 12)
-      expect(result).toEqual(new Date(1623456000000)) // Sat Jun 12 2021 01:00:00 GMT+0100 (British Summer Time)
+      // Prepare
+      const attributeToParse = '2023-03-18T00:00:00.000Z'
+      const year = 2023
+      const month = 1
+      const date = 1
+
+      // Act
+      const result = sunCard['readTime'](attributeToParse, year, month, date)
+
+      // Assert
+      expect(result).toBeInstanceOf(Date)
+      expect(result.getUTCFullYear()).toEqual(year)
+      expect(result.getUTCMonth()).toEqual(month)
+      expect(result.getUTCDate()).toEqual(date)
     })
   })
 

@@ -54,6 +54,14 @@ export enum ESunCardErrors {
   SunIntegrationNotFound = 'SunIntegrationNotFound'
 }
 
+export type TSunCardTimes = {
+  dawn: Date
+  dusk: Date
+  noon: Date
+  sunrise: Date
+  sunset: Date
+}
+
 export type TSunCardData = {
   azimuth: number
   elevation: number
@@ -63,14 +71,6 @@ export type TSunCardData = {
   times: TSunCardTimes
 
   error?: ESunCardErrors
-}
-
-export type TSunCardTimes = {
-  dawn: Date
-  dusk: Date
-  noon: Date
-  sunrise: Date
-  sunset: Date
 }
 
 export enum ESunCardI18NKeys {
@@ -83,10 +83,10 @@ export enum ESunCardI18NKeys {
   Sunset = 'sunset'
 }
 
-export type TSunCardI18NKeys = { [key in ESunCardI18NKeys ]: string } | { errors: TSunCardI18NErrorKeys }
-
 export type TSunCardI18N = Record<string, unknown>
 
 export type TSunCardI18NErrorKeys = {
   [key in ESunCardErrors]: string
 }
+
+export type TSunCardI18NKeys = { [key in ESunCardI18NKeys ]: string } | { errors: TSunCardI18NErrorKeys }
