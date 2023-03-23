@@ -17,7 +17,6 @@ export default css`
     --horizon-card-stop-dusk-color: #393b78;
 
     padding: 0.5rem;
-    font-size: 1.3rem;
     font-family: var(--primary-font-family);
   }
 
@@ -30,7 +29,7 @@ export default css`
   .horizon-card-field-row {
     display: flex;
     justify-content: space-around;
-    margin: 1rem 1.5rem 0 1.5rem;
+    margin-top: 1rem;
   }
 
   .horizon-card-text-container {
@@ -45,28 +44,34 @@ export default css`
 
   .horizon-card-field-value {
     color: var(--horizon-card-field-value-color);
+    font-size: 1.3em;
+    line-height: 1.1em;
   }
 
   .horizon-card-header {
     display: flex;
-    justify-content: space-between;
-    margin: 0 4rem 0 4rem;
+    justify-content: space-around;
+    margin-top: 1rem;
+    margin-bottom: -1rem;
   }
 
-  .horizon-card-header .horizon-card-field-value {
-    font-size: 1.85rem;
+  .horizon-card-header .horizon-card-text-container {
+    font-size: 1.3rem;
+  }
+
+  .horizon-card-footer {
+    margin-bottom: 1rem;
   }
 
   .horizon-card-title {
-    margin: 0.5rem 0.5rem 3rem 3rem;
-    font-size: 2rem;
-    font-weight: 500;
+    margin: 1rem 1rem 2rem 1rem;
+    font-size: 1.5rem;
     color: var(--horizon-card-primary);
   }
 
   .horizon-card-graph {
     shape-rendering="geometricPrecision";
-    margin: 2rem 0 2rem 0;
+    margin: 1rem 0 1rem 0;
   }
 
   .horizon-card-graph .sunInitialStop {
