@@ -1,7 +1,7 @@
 {
   "name": "lovelace-horizon-card",
   "version": "1.0.0",
-  "description": "Home Assistant Horizon card based on Google Weather design",
+  "description": "Successor to Sun Card - Visualize the position of the sun over the horizon",
   "type": "commonjs",
   "main": "dist/index.js",
   "scripts": {
