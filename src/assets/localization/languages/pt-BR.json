@@ -4,8 +4,8 @@
   "dusk": "Anoitecer",
   "elevation": "Elevação",
   "noon": "Meio dia solar",
-  "sunrise": "Nascer do Sol",
-  "sunset": "Pôr do Sol",
+  "sunrise": "Nascer do sol",
+  "sunset": "Pôr do sol",
   "errors": {
     "SunIntegrationNotFound": "Integração Sun não encontrada"
   }
