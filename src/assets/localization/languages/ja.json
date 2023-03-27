@@ -1,0 +1,12 @@
+{
+  "azimuth": "方位角",
+  "dawn": "明け方",
+  "dusk": "夕",
+  "elevation": "仰俯角",
+  "noon": "太陽の正午",
+  "sunrise": "日出",
+  "sunset": "日沒",
+  "errors": {
+    "SunIntegrationNotFound": "インテグレーション Sun は検索できません"
+  }
+}

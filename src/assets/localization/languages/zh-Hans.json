@@ -1,0 +1,12 @@
+{
+  "azimuth": "方位角",
+  "dawn": "拂晓",
+  "dusk": "傍晚",
+  "elevation": "仰角",
+  "noon": "日中",
+  "sunrise": "日出",
+  "sunset": "日落",
+  "errors": {
+    "SunIntegrationNotFound": "未搜索到集成 Sun"
+  }
+}

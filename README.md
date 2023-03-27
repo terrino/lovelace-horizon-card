@@ -119,6 +119,7 @@ Supported options for the `language` setting:
 - `he` Hebrew
 - `hu` Hungarian
 - `is` Icelandic
+- `ja` Japanese
 - `it` Italian
 - `lt` Lithuanian
 - `nb` Norwegian (Bokmål)
@@ -133,6 +134,8 @@ Supported options for the `language` setting:
 - `sv` Swedish
 - `tr` Turkish
 - `uk` Ukrainian
+- `zh-Hans` Chinese, simplified
+- `zh-Hant` Chinese, traditional
 
 ## Known Issues
 
