@@ -30,7 +30,7 @@ Please ensure you have the [Sun integration](https://www.home-assistant.io/integ
      <source media="(prefers-color-scheme: light)" srcset="https://github.com/Mqxx/GitHub-Markdown/blob/main/blockquotes/badge/light-theme/info.svg">
      <img alt="Info" src="https://github.com/Mqxx/GitHub-Markdown/blob/main/blockquotes/badge/dark-theme/info.svg">
    </picture><br>
-   Addition to the HACS default repository is pending and shouldn't take longer than a couple of days (see: https://github.com/hacs/default/pull/1808).
+   Addition to the HACS default repository is pending (see: https://github.com/hacs/default/pull/1958).
    This step won't be necessary afterwards.
 1. Search for `lovelace-horizon-card` in HACS and install it under the "Lovelace" category.
 
