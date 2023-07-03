@@ -15,6 +15,7 @@ import is from './assets/localization/languages/is.json'
 import it from './assets/localization/languages/it.json'
 import ja from './assets/localization/languages/ja.json'
 import lt from './assets/localization/languages/lt.json'
+import ms from './assets/localization/languages/ms.json'
 import nb from './assets/localization/languages/nb.json'
 import nl from './assets/localization/languages/nl.json'
 import nn from './assets/localization/languages/nn.json'
@@ -87,7 +88,7 @@ export class Constants {
   }
 
   static readonly LOCALIZATION_LANGUAGES: Record<string, THorizonCardI18NKeys> = {
-    bg, ca, cs, da, de, en, es, et, fi, fr, he, hr, hu, is, it, ja, lt, nb, nl, nn, pl, 'pt-BR': ptBR, ro, ru, sk, sl, sv, tr, uk, 'zh-Hans': zh_Hans, 'zh-Hant': zh_Hant
+    bg, ca, cs, da, de, en, es, et, fi, fr, he, hr, hu, is, it, ja, lt, ms, nb, nl, nn, pl, 'pt-BR': ptBR, ro, ru, sk, sl, sv, tr, uk, 'zh-Hans': zh_Hans, 'zh-Hant': zh_Hant
   }
 
   static readonly FALLBACK_LOCALIZATION = en
